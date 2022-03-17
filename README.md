@@ -1,4 +1,4 @@
-This test is created in laravel.
+This test is created in Laravel 9.
 
 Command to Update Currency Data
  -php artisan currency:update
@@ -8,12 +8,12 @@ when migrating database, please add --seed option on the command. I have seeded 
 
 Routes:
 
-POST - /tokens 
-  (returns fresh Bearer Token);
-GET - /currencies
-  (returns list of currency codes and names)
-GET - /currencies/{code}
-  (returns currency code data, latest based on last currency:update command)
+POST - /tokens \
+  (returns fresh Bearer Token) \
+GET - /currencies \
+  (returns list of currency codes and names) \
+GET - /currencies/{code} \
+  (returns currency code data, latest based on last currency:update command) \
 
 
 
