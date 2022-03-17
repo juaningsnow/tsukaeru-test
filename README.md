@@ -3,7 +3,7 @@ This test is created in Laravel 9.
 Command to Update Currency Data 
  - php artisan currency:update
 
-when migrating database, please add --seed option on the command. I have seeded a single user for token authentication functionality \
+when migrating database, please add --seed option on the command. I have seeded a single user for token authentication functionality 
  - php artisan migrate --seed
 
 Routes:
